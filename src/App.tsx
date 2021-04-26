@@ -1,3 +1,10 @@
+import { GlobalStyle } from "./styles/global";
+
 export function App() {
-  return <h1>DT Money App</h1>
+  return (
+    <>
+      <GlobalStyle />
+      <h1>DT Money App</h1>
+    </>
+  )
 }
