@@ -1,18 +1,15 @@
-import { ReactNode } from 'react';
+import logoIcon from "../../assets/logo.svg";
 
-import { Container } from './styles';
+import { Container, Content } from "./styles";
 
-interface HeaderProps {
-  children: ReactNode;
-}
-
-function Header({ children }: HeaderProps) {
+export function Header() {
   return (
     <Container>
-      <h1>Header</h1>
-      {children}
+      <Content>
+        <img src={logoIcon} alt="dtmoney" />
+
+        <button>Nova Transação</button>
+      </Content>
     </Container>
   );
-};
-
-export default Header;
+}
