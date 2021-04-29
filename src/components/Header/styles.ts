@@ -8,10 +8,12 @@ export const Container = styled.header`
 export const Content = styled.div`
   max-width: 1120px;
   margin: 0 auto;
+
   padding: 2rem 1rem 12rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   button {
     font-size: 1rem;
     color: #fff;
@@ -26,4 +28,5 @@ export const Content = styled.div`
       filter: brightness(0.9)
     }
   }
-`;
+
+`
